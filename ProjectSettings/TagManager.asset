@@ -10,6 +10,8 @@ TagManager:
   - Paddle2
   - Paddle
   - Verticallwall2
+  - Leftwall
+  - Rightwall
   layers:
   - Default
   - TransparentFX
