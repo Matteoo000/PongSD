@@ -24,7 +24,7 @@ public class ball : MonoBehaviour
     public float Yposition = 0f;
     public float Xspeed;
     public float Yspeed;
-
+  
 
 
     // Start is called before the first frame update
@@ -118,12 +118,23 @@ public class ball : MonoBehaviour
             Xspeed = Xspeed * -1.1f;
             audioSource.Play();
         }
+        Scoreboard.text = leftscore.ToString() + " - " + rightscore.ToString();
+
+        if (leftscore >= 5)
+        {
+            SceneManager.LoadScene(4);
+        }
+
+        if (rightscore >= 5)
+        {
+            SceneManager.LoadScene(5);
+        }
+    
 
 
 
 
-
-    }
+}
 
 
 

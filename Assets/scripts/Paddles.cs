@@ -23,6 +23,9 @@ public class InputPaddle : MonoBehaviour
         //Controls both paddles
     {
         // Left Paddle
+
+        
+
         if (leftOrRight == "Left")
         {
            
