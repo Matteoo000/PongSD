@@ -31,8 +31,8 @@ public class ball : MonoBehaviour
     void Start()
     {
         transform.position = new Vector3(Xposition, Yposition, 0);
-        Xspeed = 5f;
-        Yspeed = 5f;
+        Xspeed = 3f;
+        Yspeed = 3f;
 
         // Audio
         audioSource = gameObject.AddComponent<AudioSource>();
@@ -72,8 +72,8 @@ public class ball : MonoBehaviour
             rightscore++;
             Xposition = 0;
             Yposition = 0;
-            Yspeed = 5f;
-            Xspeed = 5f;
+            Yspeed = 3f;
+            Xspeed = 3f;
             audioSource.Play();
         }
 
@@ -88,8 +88,8 @@ public class ball : MonoBehaviour
             Yposition = 0;
             Yspeed = 0;
             Xspeed = 0;
-            Yspeed = 5f;
-            Xspeed = -5f;
+            Yspeed = 3f;
+            Xspeed = -3f;
             audioSource.Play();
         }
 

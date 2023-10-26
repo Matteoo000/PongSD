@@ -12,6 +12,7 @@ TagManager:
   - Verticallwall2
   - Leftwall
   - Rightwall
+  - Ball
   layers:
   - Default
   - TransparentFX
