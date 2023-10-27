@@ -19,7 +19,7 @@ public class ParticleBurst : MonoBehaviour
             em.enabled = true;
             collisionParticleSystem.Play();
 
-            once = false;
+   
 
 
         }
@@ -32,7 +32,7 @@ public class ParticleBurst : MonoBehaviour
             em.enabled = true;
             collisionParticleSystem.Play();
        
-        once = false;
+     
   
 
         }
