@@ -16,7 +16,7 @@ public class MenuManager : MonoBehaviour
 
     public void Explanation()
     {
-        SceneManager.LoadScene(8);
+        SceneManager.LoadScene(6);
     }
 
     public void Versus()
