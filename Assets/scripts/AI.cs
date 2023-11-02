@@ -3,14 +3,17 @@ using UnityEngine;
 public class AI : MonoBehaviour
 {
     //variables
+
+    // speed
     public float speed = 5.0f; 
+    // transform
     public Transform ballTransform;
 
     void Update()
     {
         if (ballTransform != null)
         {
-         
+                                                           
             float direction = Mathf.Sign(ballTransform.position.y - transform.position.y);
 
         

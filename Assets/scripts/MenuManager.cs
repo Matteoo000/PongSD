@@ -8,7 +8,7 @@ public class MenuManager : MonoBehaviour
 {
 
    
-
+// if buttons are pressed in the game it will load the according scene/mode
     public void Solo()
     {
         SceneManager.LoadScene(2);
@@ -33,7 +33,7 @@ public class MenuManager : MonoBehaviour
     {
         SceneManager.LoadScene(3);
     }
-
+    // closes of the game when Quit button pressed (only works in build)
     public void Quit()
     {
         Application.Quit();
